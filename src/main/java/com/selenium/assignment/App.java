@@ -37,7 +37,7 @@ public class App
 	  //enable wait of 3 seconds 
 	  driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
 	  
-	  driver.findElement(By.id("email")).sendKeys("patil_y7@yahoo.com");
+	  driver.findElement(By.id("email")).sendKeys("dummyuser@yahoo.com");
       driver.findElement(By.id("pass")).sendKeys("pa$$word123");
       
       //Thread.sleep(1000);
